@@ -7,3 +7,13 @@ D:\Work\2013\Web\PhotoManager\PhotoManager.Service.Data\obj\Debug\PhotoManager.S
 D:\Work\2013\Web\PhotoManager\PhotoManager.Service.Data\obj\Debug\PhotoManager.Service.Data.pdb
 D:\Work\2013\Web\PhotoManager\PhotoManager.Service.Data\bin\Debug\EntityFramework.dll
 D:\Work\2013\Web\PhotoManager\PhotoManager.Service.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\idavidko\Documents\GitHub\Angular-Course\PhotoManager\PhotoManager.Service.Data\bin\Debug\PhotoManager.Service.Data.dll.config
+C:\Users\idavidko\Documents\GitHub\Angular-Course\PhotoManager\PhotoManager.Service.Data\bin\Debug\PhotoManager.Service.Data.dll
+C:\Users\idavidko\Documents\GitHub\Angular-Course\PhotoManager\PhotoManager.Service.Data\bin\Debug\PhotoManager.Service.Data.pdb
+C:\Users\idavidko\Documents\GitHub\Angular-Course\PhotoManager\PhotoManager.Service.Data\bin\Debug\EntityFramework.dll
+C:\Users\idavidko\Documents\GitHub\Angular-Course\PhotoManager\PhotoManager.Service.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\idavidko\Documents\GitHub\Angular-Course\PhotoManager\PhotoManager.Service.Data\bin\Debug\EntityFramework.xml
+C:\Users\idavidko\Documents\GitHub\Angular-Course\PhotoManager\PhotoManager.Service.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\idavidko\Documents\GitHub\Angular-Course\PhotoManager\PhotoManager.Service.Data\obj\Debug\PhotoManager.Service.Data.csprojResolveAssemblyReference.cache
+C:\Users\idavidko\Documents\GitHub\Angular-Course\PhotoManager\PhotoManager.Service.Data\obj\Debug\PhotoManager.Service.Data.dll
+C:\Users\idavidko\Documents\GitHub\Angular-Course\PhotoManager\PhotoManager.Service.Data\obj\Debug\PhotoManager.Service.Data.pdb

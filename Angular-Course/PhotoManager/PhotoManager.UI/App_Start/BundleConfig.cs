@@ -27,7 +27,10 @@ namespace PhotoManager.UI
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
 
-            BundleTable.EnableOptimizations = true;
+            bundles.Add(new ScriptBundle("~/bundles/angular").Include(
+                "~/Scripts/angular.min.js"));
+
+            //BundleTable.EnableOptimizations = true;
         }
     }
 }

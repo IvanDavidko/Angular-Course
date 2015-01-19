@@ -3,9 +3,7 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
-using Autofac;
 using Autofac.Integration.Mvc;
-using Autofac.Integration.WebApi;
 using Domain;
 using PhotoManager.Service;
 using PhotoManager.UI.App_Start;
@@ -21,7 +19,7 @@ namespace PhotoManager.UI
         protected void Application_Start()
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
-            GlobalFilters.Filters.Add(new HandleAllErrorAttribute());
+            //GlobalFilters.Filters.Add(new HandleAllErrorAttribute());
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);

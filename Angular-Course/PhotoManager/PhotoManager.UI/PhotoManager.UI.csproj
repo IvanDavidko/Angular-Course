@@ -165,6 +165,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AlbumController.cs" />
     <Compile Include="Controllers\ErrorController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PhotoController.cs" />
     <Compile Include="Controllers\SearchController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
@@ -193,11 +194,14 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Page2.html" />
+    <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\Custom.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\Account\Register.cshtml" />
+    <Content Include="Page1.html" />
     <Content Include="Views\Photo\PhotoList.cshtml" />
     <Content Include="Views\Shared\_ManagePanel.cshtml" />
     <Content Include="Views\Shared\_LoginPanel.cshtml" />
@@ -217,6 +221,9 @@
     <Content Include="Views\Search\SearchResult.cshtml" />
     <Content Include="Views\Search\ExtendedSearch.cshtml" />
     <Content Include="Views\Photo\PhotoForm.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\View1.cshtml" />
+    <Content Include="Views\Home\View2.cshtml" />
     <None Include="_bin_deployableAssemblies\x86\sqlcese40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceqp40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceme40.dll" />

@@ -7,3 +7,12 @@ D:\Work\2013\Web\PhotoManager\PhotoManager.Service.Contract\bin\Debug\PhotoManag
 D:\Work\2013\Web\PhotoManager\PhotoManager.Service.Contract\bin\Debug\EntityFramework.dll
 D:\Work\2013\Web\PhotoManager\PhotoManager.Service.Contract\bin\Debug\PhotoManager.Service.Data.pdb
 D:\Work\2013\Web\PhotoManager\PhotoManager.Service.Contract\bin\Debug\EntityFramework.xml
+C:\Users\idavidko\Documents\GitHub\Angular-Course\PhotoManager\PhotoManager.Service.Contract\bin\Debug\PhotoManager.Service.Contract.dll
+C:\Users\idavidko\Documents\GitHub\Angular-Course\PhotoManager\PhotoManager.Service.Contract\bin\Debug\PhotoManager.Service.Contract.pdb
+C:\Users\idavidko\Documents\GitHub\Angular-Course\PhotoManager\PhotoManager.Service.Contract\bin\Debug\PhotoManager.Service.Data.dll
+C:\Users\idavidko\Documents\GitHub\Angular-Course\PhotoManager\PhotoManager.Service.Contract\bin\Debug\EntityFramework.dll
+C:\Users\idavidko\Documents\GitHub\Angular-Course\PhotoManager\PhotoManager.Service.Contract\bin\Debug\PhotoManager.Service.Data.pdb
+C:\Users\idavidko\Documents\GitHub\Angular-Course\PhotoManager\PhotoManager.Service.Contract\bin\Debug\EntityFramework.xml
+C:\Users\idavidko\Documents\GitHub\Angular-Course\PhotoManager\PhotoManager.Service.Contract\obj\Debug\PhotoManager.Service.Contract.csprojResolveAssemblyReference.cache
+C:\Users\idavidko\Documents\GitHub\Angular-Course\PhotoManager\PhotoManager.Service.Contract\obj\Debug\PhotoManager.Service.Contract.dll
+C:\Users\idavidko\Documents\GitHub\Angular-Course\PhotoManager\PhotoManager.Service.Contract\obj\Debug\PhotoManager.Service.Contract.pdb

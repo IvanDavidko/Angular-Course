@@ -2,3 +2,8 @@ D:\Work\2013\Web\PhotoManager\PhotoManager.UnitTests\bin\Debug\PhotoManager.Unit
 D:\Work\2013\Web\PhotoManager\PhotoManager.UnitTests\bin\Debug\PhotoManager.UnitTests.pdb
 D:\Work\2013\Web\PhotoManager\PhotoManager.UnitTests\obj\Debug\PhotoManager.UnitTests.dll
 D:\Work\2013\Web\PhotoManager\PhotoManager.UnitTests\obj\Debug\PhotoManager.UnitTests.pdb
+C:\Users\idavidko\Documents\GitHub\Angular-Course\PhotoManager\PhotoManager.UnitTests\bin\Debug\PhotoManager.UnitTests.dll
+C:\Users\idavidko\Documents\GitHub\Angular-Course\PhotoManager\PhotoManager.UnitTests\bin\Debug\PhotoManager.UnitTests.pdb
+C:\Users\idavidko\Documents\GitHub\Angular-Course\PhotoManager\PhotoManager.UnitTests\obj\Debug\PhotoManager.UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\idavidko\Documents\GitHub\Angular-Course\PhotoManager\PhotoManager.UnitTests\obj\Debug\PhotoManager.UnitTests.dll
+C:\Users\idavidko\Documents\GitHub\Angular-Course\PhotoManager\PhotoManager.UnitTests\obj\Debug\PhotoManager.UnitTests.pdb

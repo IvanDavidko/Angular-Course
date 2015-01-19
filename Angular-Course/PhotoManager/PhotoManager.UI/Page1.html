@@ -1,0 +1,12 @@
+﻿<table>
+    <tr>
+        <th><a href="" ng-click="sortField = 'name'; reverse = !reverse">Country</a></th>
+        <!--<th><a href="" ng-click="sortField = 'population'; reverse = !reverse">Population</a></th>-->
+    </tr>
+    <tr ng-repeat="country in countries | filter:query | orderBy:sortField:reverse" country="country">
+        <!--<td><a href="#/{{country.id}}">{{country.name}}</a></td>-->
+        <!--<td><a href="#/{{country.population | number}}">{{country.population | number}}</a></td>-->
+    </tr>
+</table>
+
+<!--<ul><li ng-repeat="country in countries"><a href="#/{{country.name}}">{{country.name}} </a></li></ul>-->

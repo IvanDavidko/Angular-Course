@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="nameApp">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/custom")
+    @*@Scripts.Render("~/bundles/angular")*@
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.10/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.10/angular-route.min.js"></script>
+    <script>
+
+        var nameApp = angular.module('nameApp', ['ngRoute']);
+        nameApp.config(function ($routeProvider) {
+            $routeProvider.
+                when('/', {
+                    templateUrl: '/Page1.html',
+                    controller: 'NameCtrl'
+                }).
+                when('/:countryId', {
+                    templateUrl: '/Page1.html',
+                    controller: 'CountryDetailCtrl'
+                }).
+                otherwise({
+                    redirectTo: '/'
+                });
+        });
+
+        nameApp.factory('countries', function ($http) {
+            return {
+                list: function (callback) {
+                    $http({
+                        method: 'GET',
+                        url: '/home/countries',
+                        cache: true
+                    }).success(callback);
+                },
+                find: function (id, callback) {
+                    $http({
+                        method: 'GET',
+                        url: '/home/country' + id,
+                        cache: true
+                    }).success(callback);
+                }
+            }
+        });
+
+        nameApp.directive('country', function () {
+            return {
+                scope: {
+                    country: '='
+                },
+                restrict: 'A',
+                templateUrl: '/Page2.html',
+                controller: function ($scope, countries) {
+                    countries.find($scope.country.id, function (country) {
+                        $scope.flagURL = country.flagURL;
+                    });
+                }
+            };
+        });
+
+        nameApp.controller('NameCtrl', function ($scope, countries) {
+            countries.list(function (countries) {
+                $scope.countries = countries;
+            });
+        });
+
+        nameApp.controller('CountryDetailCtrl', function ($scope, $routeParams, countries) {
+            countries.find($routeParams.countryId, function (countries) {
+                $scope.countries = countries;
+            });
+        });
+
+        nameApp.filter('encodeURI', function () {
+            return window.encodeURI;
+        });
+    </script>
+</head>
+<body>
+    <div ng-view></div>
+
+
+    @RenderBody()
+
+</body>
+</html>
